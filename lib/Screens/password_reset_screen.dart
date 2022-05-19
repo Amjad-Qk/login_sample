@@ -9,7 +9,7 @@ class PasswordResetScreen extends StatelessWidget {
     return const Scaffold(
         backgroundColor: Color(0xFFE3F1F7),
         body: Center(
-          child: Text('Reset password')
+          child: Text('Reset password',style: TextStyle(color: Colors.black),),
         ),
     );
   }
